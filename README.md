@@ -103,4 +103,5 @@ Los archivos `.env` no se suben al repositorio (ver `.gitignore`).
 
 ## 👤 Autor
 
-TU NOMBRE — TU CÓDIGO
+THIAGO CV - 023100424A
+
