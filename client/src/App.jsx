@@ -55,15 +55,10 @@ export default function App() {
   if (cargando) return <p className="estado">Cargando...</p>;
   if (error) return <p className="estado">❌ {error}</p>;
 
-  const completadas = tareas.filter((t) => t.completada).length;
-
   return (
     <main className="contenedor">
       <h1>✅ Mis tareas</h1>
       <Formulario onAgregar={agregarTarea} />
-      <p className="contador">
-        {completadas} de {tareas.length} tareas completadas
-      </p>
       <ListaTareas tareas={tareas} onEliminar={eliminarTarea} onToggle={toggleTarea} />
     </main>
   );
