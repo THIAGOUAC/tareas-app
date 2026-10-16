@@ -8,8 +8,8 @@ Práctica de la **Guía 8** — Plataformas para el Desarrollo de Aplicaciones �
 
 | Parte | URL |
 |---|---|
-| Frontend (Vercel) | https://TU-APP.vercel.app |
-| API (Render) | https://TU-API.onrender.com/api/tareas |
+| Frontend (Vercel) | https://tareas-app-9uj1.vercel.app |
+| API (Render) | https://tareas-app-50bh.onrender.com/api/tareas |
 
 > ⏳ La API está en el plan gratuito de Render: si no se usó en 15 min, la primera carga tarda ~1 minuto en despertar.
 
@@ -78,7 +78,7 @@ npm run dev      # http://localhost:5173
 1. Add New → Project → importar este repositorio.
 2. Root Directory: `client` (Vercel detecta Vite).
 3. Build: `npm run build` · Output: `dist`.
-4. Variable de entorno: `VITE_API_URL` = `https://TU-API.onrender.com/api/tareas`.
+4. Variable de entorno: `VITE_API_URL` = `https://tareas-app-50bh.onrender.com/api/tareas`.
 
 ## 🔐 Variables de entorno
 
@@ -90,18 +90,6 @@ npm run dev      # http://localhost:5173
 
 Los archivos `.env` no se suben al repositorio (ver `.gitignore`).
 
-## 📸 Capturas
-
-### Panel de Render
-![Render](capturas/render.png)
-
-### Panel de Vercel
-![Vercel](capturas/vercel.png)
-
-### App en vivo
-![App](capturas/app.png)
-
 ## 👤 Autor
 
-THIAGO CV - 023100424A
-
+Cusiyupanqui Venero Thiago
